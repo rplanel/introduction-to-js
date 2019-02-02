@@ -1,8 +1,7 @@
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/the-template)
+# introduction-to-js
 
-# GitPitch - The Template
-
-*THE FASTEST WAY FROM IDEA TO PRESENTATION*
-
-For details, see the complete template documentation [here](https://gitpitch.com/docs/the-template).
-
+(Inspiré de https://github.com/iliakan/javascript-tutorial-en)
+* 
+* Rien à voir avec le Java (a juste voulu surfer sur la vague de Java pour bénéficier de sa popularité)
+* Le javascript est une langage qui peut s'executer dans un navigateur mais aussi sur un serveur grâce à un moteur javascript (V8, SpiderMonkey).
+* Ubiquitaire.
