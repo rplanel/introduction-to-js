@@ -34,10 +34,10 @@ De nombreux éditeurs existent mais le seul qui vaille la peine est Emacs :D
   * **'** or **"**
   * Échapper caractère : **\\**
   * Concaténation : **+**
-  * **\`** template literals : \`half of 100 is ${100 / 2}\`
+  * **\`** template literals : ``` \`half of 100 is ${100 / 2}\` ```
   * Parler de tout ce qu'on peut faire avec des Strings.
   * String comme des objets.
-* Number: Infinity, NaN (NaN == NaN => false)
+* Number: Infinity, NaN  : ``` (NaN == NaN ) // false ```
 * Boolean
 * Array
 * Object
