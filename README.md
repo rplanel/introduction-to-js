@@ -34,10 +34,10 @@ De nombreux éditeurs existent mais le seul qui vaille la peine est Emacs :D
   * **'** or **"**
   * Échapper caractère : **\\**
   * Concaténation : **+**
-  * **\`** template literals : ``` \`half of 100 is ${100 / 2}\` ```
+  * **\`** template literals : ```javascript `half of 100 is ${100 / 2}` ```
   * Parler de tout ce qu'on peut faire avec des Strings.
   * String comme des objets.
-* Number: Infinity, NaN  : ``` (NaN == NaN ) // false ```
+* Number: Infinity, NaN  : ```javascript (NaN == NaN ) // false ```
 * Boolean
 * Array
 * Object
@@ -46,14 +46,14 @@ De nombreux éditeurs existent mais le seul qui vaille la peine est Emacs :D
 ## Opérateur
   Les mêmes que pour python sauf : 
    - == vs ===
-     - 1 == "1" => true
-     - 1 === "1" => false
-     - undefined == null => true
-     - undefined === null => false
+     - ```javascript 1 == "1" ``` // true
+     - ```javascript 1 === "1" ``` //false
+     - ```javascript undefined == null ``` //true
+     - ```javascript undefined === null ``` //false
 
 ## Conversion automatique.
   Javascript est très tolérant et donc il ne prévient pas forcément quand on fait des bêtises.
-  ```
+  ```javascript
   console.log(8 * null)
   // → 0
   console.log("5" - 1)
